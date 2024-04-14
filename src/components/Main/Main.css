@@ -1,4 +1,5 @@
 .main {
+    background-color:#131314;
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
@@ -31,7 +32,7 @@
 }
 
 .main-container .greet {
-    margin: 50px 0;
+    margin: 30px 0;
     font-size: 56px;
     color: #c4c7c5;
     font-weight: 500;
@@ -55,10 +56,11 @@
 }
 
 .main .card {
+
     height: 200px;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 10px;
-    background-color: #f0f4f9;
+    background-color: #1e1f20;
     cursor: pointer;
     position: relative;
 
@@ -68,7 +70,7 @@
     width: 35px;
     padding: 5px;
     position: absolute;
-    background-color: white;
+    background-color:#131314;
     border-radius: 20px;
     bottom: 10px;
     right: 10px;
@@ -76,7 +78,7 @@
 
 .main .card p {
 
-    color: #585858;
+    color:white;
     font-size: 17px;
 }
 
@@ -99,7 +101,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: #f0f4f9;
+    background-color: #1e1f20;
     padding: 10px 20px;
     border-radius: 50px;
 }
@@ -132,6 +134,8 @@
 }
 
 .main .bottom-info {
+
+    color: orange;
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
@@ -158,6 +162,10 @@
 
 }
 
+.result-title p{
+    color: white;
+}
+
 .result img {
     width: 40px;
     border-radius: 50%;
@@ -170,6 +178,9 @@
 
 }
 
+.result-data p{
+    color: white;
+}
 .loader {
     width: 100%;
     display: flex;
@@ -203,7 +214,7 @@
 
 .result-data p {
     font-size: 17px;
-    color: #585858;
+   
     font-weight: 300;
     line-height: 1.8;
 }

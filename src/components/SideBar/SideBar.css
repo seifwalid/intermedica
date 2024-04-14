@@ -1,9 +1,10 @@
 .sidebar{
+    background-color: #1e1f20;
     min-height: 100vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f0f4f9;
+
     padding: 25px 15px;
 }
 
@@ -24,7 +25,7 @@
     align-items: center;
     gap: 10px;
     padding: 10px 15px;
-    background-color: #e6eaf1;
+    background-color:#1a1a1c;
     border-radius: 50px;
     font-size: 14px;
     color: grey;
@@ -38,6 +39,7 @@
 }
 
 .sidebar .recent-title{
+    color: white;
     margin-top: 30px;
     margin-bottom: 20px;
 }
@@ -51,6 +53,9 @@
     border-radius: 50px;
     color: #282828;
     cursor: pointer;
+}
+.sidebar .recent-entry p{
+  color: white;
 }
 .sidebar .recent-entry:hover {
     background-color: #e2e6eb;
